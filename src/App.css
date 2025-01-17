@@ -1,0 +1,31 @@
+.warning {
+  color: white; /* Text color for better contrast */
+  font-size: 0.9rem; /* Slightly adjusted for readability */
+  font-weight: bold; /* Keeps the emphasis */
+  position: absolute; /* Keeps the element positioned relative to its parent */
+  top: 10%; /* Adjusted top positioning */
+  right: 10px; /* Ensures it’s not flush with the edge */
+  padding: 10px; /* Adds space around the content */
+  border-radius: 5px; /* Rounds the corners for a modern look */
+  background-color: #ff9900; /* Retains your warning background color */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+  text-align: center; /* Centers text within the element */
+  z-index: 1000; /* Ensures it’s above other elements */
+}
+
+@media (max-width: 768px) {
+  .warning {
+    font-size: 0.8rem; /* Adjust font size for smaller screens */
+    width: auto; /* Allows it to adjust based on content */
+    top: 5%; /* Keeps it visible on smaller devices */
+    right: 10px; /* Maintains spacing */
+    padding: 8px; /* Slightly smaller padding */
+  }
+}
+
+
+*{
+  scrollbar-width: thin;
+  scrollbar-color: #ff9900 #f5f5f5;
+  
+}

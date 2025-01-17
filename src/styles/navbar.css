@@ -1,0 +1,60 @@
+/* navbar.css */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 0;
+    align-items: center;
+    background-color: #232f3e;
+    color: white;
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+    left: 0;
+    right: 0;
+}
+
+.my-shop {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff9902;
+    cursor: pointer;
+}
+
+.my-shop:hover {
+    text-shadow: #fffdff52 0px 0px 2px;
+    color: #ffa31b;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.cart i {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.cart i:hover {
+    color: #ffa31a;
+}
+
+.cart span:last-child {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff9900;
+}
+
+@media (max-width: 768px) {
+    .nav-bar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .my-shop {
+        margin-bottom: 10px;
+    }
+}
